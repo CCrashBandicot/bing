@@ -1,0 +1,3 @@
+content 	binggrabb chrome/content/
+overlay		chrome://browser/content/browser.xul    chrome://binggrabb/content/overlay.xul
+style		chrome://global/content/customizeToolbar.xul
