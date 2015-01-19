@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="application/javascript" src="chrome://binggrabb/content/Main.js" />
+
+<popup id="contentAreaContextMenu">
+	<menuitem id="context-item1" label="Bing DOrker by CrashBandicot" oncommand="Start ();"/>
+</popup>
+
+</overlay>
