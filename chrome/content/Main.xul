@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<window id="rootWnd" title="Bing Dorker by CrashBandicot" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/javascript" src="chrome://binggrabb/content/Main.js" />
+
+<toolbox>
+	<toolbar>
+		<toolbarbutton label="Home" oncommand="Bing.Home ();" />
+		<toolbarbutton label="About" oncommand="Bing.About ();" />
+		<toolbarbutton label="Github" oncommand="Bing.Redirect ();" />
+	</toolbar>
+</toolbox>
+<image src="images/banner.jpg" width='230' height='230' />
+<label control="your-name" value="Put Dork :" />
+<textbox id="user_dork" value="ip:127.0.0.1" />
+<button label="Start Dorking" oncommand="Bing.Grab ();" />
+<label control="your-namex" value="Result :" />
+<textbox id="result_box" multiline="true" rows="15" size="50" />
+<label id="count_urls" value="" />
+
+</window>
